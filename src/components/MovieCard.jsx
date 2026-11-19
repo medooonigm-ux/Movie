@@ -10,10 +10,7 @@ function MovieCard({ movie }) {
 
   return (
     <div className={styles.movieCard}>
-      <img
-        src={imageUrl(movie.poster_path)}
-        alt={movie.title}
-      />
+      <img src={imageUrl(movie.poster_path)} alt={movie.title} />
 
       <h2>{movie.title}</h2>
       <p>{(movie.overview || "").split(" ").slice(0, 18).join(" ")}...</p>
@@ -25,8 +22,8 @@ function MovieCard({ movie }) {
 
         <button
           type="button"
-          onClick={() => toggleFavorite(movie)}
           className={styles.favoriteButton}
+          onClick={() => toggleFavorite(movie)}
         >
           {isFavorite ? "Remove Fav" : "Add Fav"}
         </button>
