@@ -1,6 +1,6 @@
 {
   "name": "movie",
-  "homepage": "https://medooonigm-ux.github.io/movie",
+  "homepage": "https://medooonigm-ux.github.io/Movie",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,7 +31,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.2%%",
       "not dead",
       "not op_mini all"
     ],
